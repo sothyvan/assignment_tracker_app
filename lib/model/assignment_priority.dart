@@ -1,0 +1,1 @@
+enum AssignmentPriority {low, medium, high, notSet}
