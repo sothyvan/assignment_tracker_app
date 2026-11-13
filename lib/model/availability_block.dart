@@ -11,8 +11,8 @@ enum Weekday {
 class AvailabilityBlock {
   final int id;
   Weekday dayOfWeek;
-  DateTime startTime;
-  DateTime endTime;
+  Duration startTime;
+  Duration endTime;
 
   AvailabilityBlock({
     required this.id,
